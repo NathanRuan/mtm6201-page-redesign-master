@@ -41,4 +41,98 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap');
+/* Custom css starts here */
+/* Start with  mobile phone */
+/* base on 600px X 800px */
+@media only screen and (max-width: 760px) {
+	/* Fill the screen with web elements */
+	/* Change background color */
+nav#nav {
+	width: 100%;
+	background-color: #2F2F2F;
+}
+/* Change font color */
+nav a {
+	color: white;
+}
+/* Add font color change effect */
+nav a:hover {
+	background-color: gray;
+}
+/* Change background color, add boder area, change font */
+section#home {
+	background-color: #2F2F2F;
+	border: 1px solid white;
+	font-family: 'KoHo', sans-serif;
+	color: #F5D547;
+}
+section#about {
+	background-color: #2F2F2F;
+	font-family: 'KoHo', sans-serif;
+	border: 1px solid white;
+	color: #F5D547;
+	margin: auto;
+}
+section img {
+	display: none;
+}
+section#about p {
+	width: 400px;
+	margin: auto;
+}
+section#contact {
+	background-color: #2F2F2F;
+	font-family: 'KoHo', sans-serif;
+	padding: 25px;
+}
+section#contact h2,p {
+	color: #F5D547;
+}
+section#contact form {
+    width: 90%;
+}
+}
 
+/* Start from the laptop */
+nav#nav {
+	background-color: #2F2F2F;
+}
+nav a {
+	color: #F5D547;
+}
+nav a:hover {
+	background-color: gray;
+}
+section#home {
+	background-color: #2F2F2F;
+	border: 1px solid white;
+	font-family: 'KoHo', sans-serif;
+}
+section {
+	color: white;
+}
+/* Limit the text range. Centering elements in the page */
+section.home p{
+	width:350px;
+	margin: auto;
+}
+
+section#about {
+	background-color: #2F2F2F;
+	font-family: 'KoHo', sans-serif;
+	border: 1px solid white;
+}
+section#about p {
+   width: 600px;
+   text-align: center;
+   margin: auto;
+}
+section#contact {
+	background-color: #2F2F2F;
+	font-family: 'KoHo', sans-serif;
+	padding: 25px;
+}
+section#contact form {
+    margin: 25px;
+}
